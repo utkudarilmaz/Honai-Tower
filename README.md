@@ -14,6 +14,7 @@ python3 honaitower.py <Number-of-Disk-on-HonaiTower>
 
 ## Screenshots
 
-![Honai-Tower](images/image1.png)
-![Honai-Tower](images/image2.png)
+![Honai-Tower](images/Image1.png)
+
+![Honai-Tower](images/Image2.png)
 
