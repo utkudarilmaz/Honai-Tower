@@ -10,7 +10,7 @@ All disks must be moved to 2nd stack.
 
 ## Usage:
 
-python3 honaitower.py <Number-of-Disk-on-HonaiTower>
+python3 honaitower.py <_Number-of-Disk-on-HonaiTower_>
 
 ## Screenshots
 
