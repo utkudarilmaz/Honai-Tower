@@ -1,6 +1,6 @@
-# Honai Tower Game on CLI
+# Tower of Honai Game on CLI
 
-## About Honai Tower
+## About Tower of Honai
 
 https://en.wikipedia.org/wiki/Tower_of_Hanoi
 
