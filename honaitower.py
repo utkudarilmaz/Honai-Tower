@@ -131,4 +131,4 @@ if __name__ == "__main__":
         try :
             tower = HonaiTower(int(sys.argv[1]))
         except ValueError:
-            print("Lutfen bir tam sayi giriniz!")
+            print("Usage: python3 honai.py <Number-of-disk-on-HonaiTower>")
