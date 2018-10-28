@@ -19,6 +19,8 @@ class HonaiTower():
 
         self.Stacks = []
         self.size = size
+        self.totalMovement = 0
+
         for i in range(3):
             self.Stacks.append(Stack(i))
 
@@ -66,9 +68,11 @@ class HonaiTower():
         else :
             self.Stacks[target].disks.append(self.Stacks[source].disks.pop())
 
+        self.totalMovement = self.totalMovement + 1
         self.is_win()
         os.system('clear')
         print(colors.OKGREEN+"\nBasarili Adım: ",str(source)," --> ",str(target),colors.ENDC)
+        print(colors.WARNING+"Total Movement: ",str(self.totalMovement),"\n",colors.ENDC)
         self.get_tower()
         return self.move_disk()
 
@@ -78,6 +82,7 @@ class HonaiTower():
             print('YYYYY')
             os.system('clear')
             print(colors.HEADER+"Tebrikler! Kazandiniz"+colors.ENDC)
+            print(colors.OKGREEN+"Total Movement: ",str(self.totalMovement),"\n",colors.ENDC)
             self.get_tower()
             exit()
 
