@@ -18,3 +18,5 @@ python3 honaitower.py <_Number-of-Disk-on-HonaiTower_>
 
 ![Honai-Tower](images/Image2.png)
 
+![Honai-Tower](images/Image3.png)
+
